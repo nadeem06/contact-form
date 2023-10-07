@@ -3,8 +3,26 @@
     font-style: normal;
     font-weight: 900;
     text-transform: uppercase;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    line-height: 0px;
+    text-align: center;
 }
 
-body{
+.flex-container{
+    display: flex;
+    align-items: baseline;
     background-color: blue;
+    padding: 10px;
+    width: 80%;
+    height: 500px;
 }
+
+.flex-item{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+  }
